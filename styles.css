@@ -230,6 +230,7 @@ footer {
 	}
 	.column {
 		width: 90%;
+		flex-direction: column;
 	}
 	.info-card-header {
 		margin: 30px 0;
@@ -268,7 +269,7 @@ footer {
 		margin: 0 30px 30px;
 	}
 }
-@media (max-width: 1025px) {
+@media (max-width: 1025px) and (min-width: 480px) {
 	.container {
 		width: 100%;
 	}
